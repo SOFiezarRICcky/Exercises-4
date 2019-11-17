@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    width: 900px;
+    min-height: 750px;
+    margin: auto;
+}
+
+body {
+    background-image: url(../images/main_bg.gif);
+    background-size: cover;
+}
+
+#wrapper #header {
+    min-height: 220px;
+    background-color: black;
+}
+
+#wrapper #header #header_left {
+    width: 240px;
+    float: left;
+    min-height: 220px;
+    overflow: hidden;
+    /* Untuk Menghilangkan gambar yang berlebih 
+    dari areanya */
+    position: relative;
+    /* Kita mengatur gambar yang ingin dipotong 
+    dengan patokan left/top */
+}
+
+#wrapper #header #header_left img {
+    width: auto;
+    max-height: 300px;
+    position: absolute;
+    top: -65px;
+    /* ablosute dan -65px ada posisi gambar 
+    yang ingin ditampilkan */
+}
+
+#wrapper #header #header_right {
+    width: 460px;
+    float: right;
+    min-height: 220px;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+    margin-left: 200px;
+}
+
+#wrapper #header #header_right img {
+    width: auto;
+    max-height: 500px;
+    position: absolute;
+    top: -80px;
+    left: -200px;
+}
+
+#wrapper #menu {
+    min-height: 50px;
+    background-color: black;
+}
+
+#wrapper #menu ul {
+    list-style-type: none;
+}
+
+#wrapper #menu ul li {
+    float: left;
+    width: 180px;
+    text-align: center;
+}
+
+#wrapper #menu ul li a {
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+}
+
+#wrapper #content {
+    min-height: 620px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#wrapper #content #content_left {
+    float: left;
+    width: 320px;
+    min-height: 500px;
+    margin-right: 10px;
+}
+
+#wrapper #content #content_right {
+    float: right;
+    width: 520px;
+    min-height: 500px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+#wrapper #content #content_right h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+#wrapper #content #content_right p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 40px;
+    /* untuk menjorok pada awal paragraf */
+}
+
+#wrapper #content #content_right img {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+#wrapper #content #content_right #ipod {
+    width: 150px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+#wrapper #content #content_left #div_1 {
+    height: 250px;
+    background-color: white;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+#wrapper #content #content_left #div_1 #div_1_head {
+    background-color: black;
+    height: 30px;
+}
+
+#wrapper #content #content_left #div_1 #div_1_head h2 {
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+#wrapper #content #content_left #div_1 #div_1_isi {
+    overflow: hidden;
+}
+
+#wrapper #content #content_left #div_1 #div_1_isi ul li {
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    list-style-type: none;
+}
+
+#wrapper #content #content_left #div_1 #div_1_isi img {
+    float: left;
+    margin-right: 5px;
+}
+
+#wrapper #content #content_left #div_1 #div_1_isi #steave {
+    height: 220px;
+    width: 170px;
+}
+
+#wrapper #content #content_left #div_2 {
+    min-height: 180;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+#wrapper #content #content_left #div_2 img {
+    height: 180px;
+    width: 320px;
+}
+
+#wrapper #content #content_left #div_3 {
+    height: 180px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+#wrapper #content #content_left #div_3 img {
+    height: 180px;
+    width: 320px;
+}
+
+#wrapper #footer {
+    min-height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
